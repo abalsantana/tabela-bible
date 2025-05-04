@@ -1,0 +1,85 @@
+
+.card {
+    background: #eef;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 6px;
+    position: relative;
+    box-sizing: border-box;
+    font-weight: normal;
+  }
+  
+  /* Card de legenda */
+  .legenda {
+    background: #ffd;
+    border: 2px solid #888;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  
+  /* Topo: Capítulo */
+  .card .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+    font-weight: bold;
+  }
+  
+  
+  /* Linha do versículo */
+  .card .versiculo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    margin-top: 2px;
+  }
+  
+  
+  
+  /* Sigla ao centro */
+  .card .sigla {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 2px;
+  }
+  
+  
+  /* Nome do livro */
+  .card .livro {
+    text-align: center;
+    font-size: 0.55rem;
+    color: #444;
+    margin-top: auto;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    font-family: Roboto;
+    font-size: large;
+    font-weight: 800;
+    color: #444;
+    padding: 16px;
+    margin-bottom: 120px;
+  }
+
+  
+    
+  

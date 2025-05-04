@@ -1,0 +1,76 @@
+.tabela-biblica {
+  display: flex;
+  justify-content: center;     /* Centraliza horizontalmente */
+  align-items: flex-start;     /* Alinha os grids pelo topo */
+  gap: 64px;                   /* Espaço entre os dois blocos */
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  flex-direction: row;
+}
+
+.grid-unico {
+  display: grid;
+  grid-template-columns: repeat(7, 60px);
+  grid-auto-rows: 72px; /* mesma altura dos cards */
+  gap: 12px 12px;
+}
+
+.card {
+  background: #eef;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px;
+  position: relative;
+  box-sizing: border-box;
+  font-weight: normal;
+  height: 72px;
+}
+
+/* Card de legenda */
+.legenda {
+  background: #ffd;
+  border: 2px solid #888;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card .cabecalho {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.55rem;
+  font-weight: bold;
+}
+
+.card .versiculo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  margin-top: 2px;
+}
+
+.card .sigla {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: 2px;
+}
+
+.card .livro {
+  text-align: center;
+  font-size: 0.55rem;
+  color: #444;
+  margin-top: auto;
+}
