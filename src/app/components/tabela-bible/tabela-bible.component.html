@@ -52,23 +52,41 @@
         <div class="card" style="grid-column: 5">
             <div class="cabecalho">
                 <span class="capitulo-label">Cap.</span>
-                <span class="capitulo-num">5</span>
+                <span class="capitulo-num">{{cards[5].capitulo}}</span>
             </div>
             <div class="versiculo">
                 <span class="versiculo-label">Vers.</span>
-                <span class="versiculo-num">5</span>
+                <span class="versiculo-num">{{cards[5].versiculo}}</span>
             </div>
-            <div class="sigla">Dt</div>
-            <div class="livro">Deuteronomy</div>
+            <div class="sigla">{{cards[5].sigla}}</div>
+            <div class="livro">{{cards[5].livro}}</div>
         </div>
-        <div class="card" style="grid-column: 6">Js</div>
-        <div class="card" style="grid-column: 7">Jz</div>
 
-
-        
         <!-- Exemplo de um card na posição certa da 2ª linha com 7 cards -->
-        <div class="card" style="grid-row: 2; grid-column: 1;">Lv</div>
-        <div class="card" style="grid-row: 2; grid-column: 2;">Nm</div>
+        <div class="card" style="grid-row: 2; grid-column: 1;">
+            <div class="cabecalho">
+                <span class="capitulo-label">Cap.</span>
+                <span class="capitulo-num">{{cards[6].capitulo}}</span>
+            </div>
+            <div class="versiculo">
+                <span class="versiculo-label">Vers.</span>
+                <span class="versiculo-num">{{cards[6].versiculo}}</span>
+            </div>
+            <div class="sigla">{{cards[6].sigla}}</div>
+            <div class="livro">{{cards[6].livro}}</div>
+        </div>
+        <div class="card" style="grid-row: 2; grid-column: 2;">
+            <div class="cabecalho">
+                <span class="capitulo-label">Cap.</span>
+                <span class="capitulo-num">{{cards[7].capitulo}}</span>
+            </div>
+            <div class="versiculo">
+                <span class="versiculo-label">Vers.</span>
+                <span class="versiculo-num">{{cards[7].versiculo}}</span>
+            </div>
+            <div class="sigla">{{cards[7].sigla}}</div>
+            <div class="livro">{{cards[7].livro}}</div>
+        </div>
         <div class="card" style="grid-row: 2; grid-column: 3;">Ot</div>
         <div class="card" style="grid-row: 2; grid-column: 4;">Jl</div>
         <div class="card" style="grid-row: 2; grid-column: 5;">Am</div>
@@ -152,15 +170,3 @@
     </div>
 </div>
       
-<div><!-- Card de Legenda (ocupa 2x2 cards na base esquerda) -->
-      <div class="legenda" style="grid-row: 2 / span 2; grid-column: 2 / span 2;">
-        <strong>Legenda:</strong>
-        <ul>
-          <li>Capítulo (canto superior)</li>
-          <li>Versículo (abaixo do capítulo)</li>
-          <li>Sigla (centro grande)</li>
-          <li>Livro (nome completo embaixo)</li>
-        </ul>
-      </div>
-</div>
-  

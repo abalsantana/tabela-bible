@@ -2,9 +2,7 @@
   display: flex;
   justify-content: center;     /* Centraliza horizontalmente */
   align-items: flex-start;     /* Alinha os grids pelo topo */
-  gap: 64px;                   /* Espaço entre os dois blocos */
-  width: 100vw;
-  height: 100vh;
+  gap: 64px; 
   font-family: sans-serif;
   flex-direction: row;
 }
